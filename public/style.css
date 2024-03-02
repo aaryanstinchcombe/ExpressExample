@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+	margin: 2em;
+	padding: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2 {
+	font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+
+h2 {
+	font-size: 1.2em;
+	margin: 0.83em 0;
+}
+
+p {
+	margin: 1em 0;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #eee;
+	border-radius: 10px;
+}

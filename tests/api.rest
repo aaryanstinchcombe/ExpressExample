@@ -1,0 +1,23 @@
+POST http://localhost:5555/api/user
+Content-Type: application/json
+
+{
+    "email": "test2@example.com",
+    "name": "test user 2",
+    "age": 24
+}
+
+################################
+
+POST http://localhost:5555/api/post
+Content-Type: application/json
+
+{
+    "userEmail": "test2@example.com",
+    "title": "The Last Post",
+    "content": "This is the last post of the example."
+}
+
+################################
+
+GET http://localhost:5555/api
